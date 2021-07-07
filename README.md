@@ -1,2 +1,6 @@
 # iniad-fes-proj
-All set for INIAD fes!
+## Some reminding 
+To create a new app named 'foo' and start:
+```
+python manage.py startapp foo
+```
