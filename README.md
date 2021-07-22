@@ -4,7 +4,7 @@ The project mainly contains 2 branches: `main` and `dev`:
 * `dev` branchl: development branch
 
 The **workflow** is: 
-1. Take an issue
+1. Take up an issue
 2.  If it is an issue which adds a features, create a new branch `features/xxx` which 'xxx' is the name of the feature. Else if it is a bug fixed issue, create a new branch name `bugs/xxx` where 'xxx' is the name of the feature you fix. (About how to create a branch, read `Git` part) For example, if you do the CSS of the introduction page, create a new branch `features/intro_css` and work on that.
 3.  Develop on the branch you created. When you are done, create a pull request to the branch `dev`, and I will review it before officially merging it to the `dev` branch.
 
