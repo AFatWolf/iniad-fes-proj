@@ -1,5 +1,4 @@
-# iniad-fes-proj
-## Workflow
+# Workflow
 The project mainly contains 2 branches: `main` and `dev`:
 * `main` branch: a stable branch
 * `dev` branchl: development branch
@@ -12,8 +11,8 @@ The **workflow** is:
 
 NOTE: when `commit` on git, make sure to write meaningful commit. For example, `Add xxx`, `Update xxx css`, `Update database model`, `Fix xxx bugs of yyy` where 'xxx' can be the features and 'yyy' is the bug you fixed. In `Update` and `Fix` case, if the number of files you change is not too many, write that in the commit.
 
-## Git
-# Feel free to use GitHub Desktop.
+# Git
+*Feel free to use GitHub Desktop*.
 I recommend reading the first 3 chapters of https://git-scm.com/book/en/v2. I will list some basic command here.
 To see status (which files is tracked, added etc.):
 ```
@@ -49,7 +48,7 @@ To delete a bracnh:
 git branch -d features/intro_css
 ```
 
-## Django basics
+# Django basics
 To create a new app named 'foo' and start:
 ```
 python manage.py startapp foo
@@ -64,7 +63,7 @@ To run server locally:
 python manage.py runserver
 ```
 
-## Pip
+# Pip
 To install some modules:
 ```
 pip install django # for example
